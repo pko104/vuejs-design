@@ -38,6 +38,8 @@ export default {
     position: absolute;
     top: 25px;
     width: 25px;
+    z-index: 1;
+    position:fixed;
 }
 
 .bm-item-list>* {
@@ -63,7 +65,9 @@ export default {
 
 .bm-menu{
   background-color:#e6dadaba;
-  height:70px;
+  height:60px;
+  overflow:hidden;
+  position:fixed;
 }
 .bm-item-list a:hover{
   color:none;

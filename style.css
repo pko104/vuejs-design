@@ -8,11 +8,13 @@ body{
 #heading{
 	font-size:30px;
 	margin: auto;
-	position: relative;
+	position: fixed;
 	text-align: center;
 	background: #e6dada;
-	height: 70px;
+	height: 65px;
 	padding-top: 5px;
+	z-index: 1;
+	width: 100%;
 }
 .bm-burger-button{
 	top:20px;
@@ -25,5 +27,6 @@ body{
 
 }
 .right-col{
-	
+
 }
+

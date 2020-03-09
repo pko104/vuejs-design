@@ -1,8 +1,8 @@
 <template>
   <nav class="flex flex-auto w-100 z-3">
       <div class="step-nav">
-        <a href="#" class="is-active"><span>Chair</span></a>
-        <a href="#"><span>Table</span></a>
+        <a href="#" class="is-active"><span>Table</span></a>
+        <a href="#"><span>Chair</span></a>
         <a href="#"><span>Sizes</span></a>
         <a href="#"><span>Summary</span></a>
       </div>
@@ -40,9 +40,11 @@
     justify-content: center;
     border-bottom: 1px solid #ddd;
     z-index: 1;
-    height: 35px;
+    height: 25px;
+    top:65px;
     color: black;
     margin: auto;
+    padding-top: 5px;
 }
 .builder .step-nav a {
     font-size: 13px;
