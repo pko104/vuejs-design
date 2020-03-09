@@ -1,0 +1,107 @@
+<template>
+    <Slide>
+      <a id="home" href="#">
+        <span class="glyphicon glyphicon-home"></span>
+      </a>
+      <a id="store" href="#">
+        <span class="glyphicon glyphicon-shopping-cart"></span>
+      </a>
+      <a id="user" href="#">
+        <span class="glyphicon glyphicon glyphicon-user"></span>
+      </a>      
+      <a id="contact" href="#">
+        <span class="glyphicon glyphicon-phone-alt"></span>
+      </a>      
+    </Slide>
+</template>
+
+
+
+<script>
+import { Slide } from 'vue-burger-menu'  // import the CSS transitions you wish to use, in this case we are using `Slide`
+
+export default {
+    components: {
+        Slide // Register your component
+    }
+}
+</script>
+
+<style>
+.bm-overlay {
+   background:white;
+}
+.bm-burger-button {
+    cursor: pointer;
+    height: 20px;
+    left: 36px;
+    position: absolute;
+    top: 25px;
+    width: 25px;
+}
+
+.bm-item-list>* {
+    display: inline-flex;
+    padding: .7em;
+    text-decoration: none;
+}
+
+.bm-item-list>*>span {
+    color: #9a7c88;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 20px;
+    top:5px;
+    width: 0px;
+    text-align: center;
+}
+
+.bm-cross {
+  background: #d2c0c4;
+  transform: rotate(90deg) !important;
+}
+
+.bm-menu{
+  background-color:#e6dadaba;
+  height:70px;
+}
+.bm-item-list a:hover{
+  color:none;
+}
+
+.bm-item-list a:active{
+  color:#b7afb2;
+}
+.cross-style{
+  top: 28px;
+  left: 48px;
+}
+.bm-item-list {
+    color: #b8b7ad;
+    font-size: 20px;
+    margin-left: 20%;
+    top: -55px;
+    position: relative;
+}
+.bm-burger-bars {
+    background-color: #9a7c88;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
+}
+</style>
