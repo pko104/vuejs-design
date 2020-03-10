@@ -1,17 +1,43 @@
 <template>
-  <nav class="flex flex-auto w-100 z-3">
+  <div>
+    <nav class="flex flex-auto w-100 z-3">
       <div class="step-nav">
-        <a href="#" class="is-active"><span>Table</span></a>
-        <a href="#"><span>Chair</span></a>
-        <a href="#"><span>Sizes</span></a>
-        <a href="#"><span>Summary</span></a>
-      </div>
+        <a v-for="(tab, index) in tabs" 
+          @click="currentTab = index"
+          :class="{active: currentTab === index}">{{tab}}</a>      
+      </div>  
     </nav>
+    <div class="row">
+      <div id="all-the-drawings" class="col-6">
+        <div id="canvas-container" class="col-6 canvas"></div>
+        <div id="canvas-container2" class="col-6 canvas"></div>
+      </div>
+      <table-input :tab="currentTab"></table-input>
+      <chair-input :tab="currentTab"></chair-input>
+    </div>
+  </div>
 </template>
 
 
-
 <script>
+import Selection from './Selection.vue'
+import ChairSelection from './ChairSelection.vue'
+
+  export default {
+    data() {
+          return {
+          currentTab: 0,
+          tabs: ['Table', 'Chair','Price','Size']    
+          }
+      },
+      components: {
+        'table-input' : Selection,
+        'chair-input' : ChairSelection,
+
+      }
+
+    }
+  
 
 
 
@@ -65,4 +91,9 @@
 .builder .step-nav a.is-active {
     color: #000;
 }
+.active{
+    border-bottom: 3px outset #ddd;
+}
+
+
 </style>

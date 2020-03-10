@@ -11,7 +11,7 @@ body{
 	position: fixed;
 	text-align: center;
 	background: #e6dada;
-	height: 65px;
+	height: 70px;
 	padding-top: 5px;
 	z-index: 1;
 	width: 100%;
@@ -23,10 +23,19 @@ body{
 	position: relative;
 	top: 30px;
 }
-.left-col{
+.canvas{
+	text-align: center;
 
 }
-.right-col{
+.select-item-section{
+	padding:25px;
+	background:white;
+	padding-top: 50px;
+	padding-left:40px !important;
+	padding-right:40px !important;
+}
 
+#all-the-drawings{
+	background:#e5e5e5;
 }
 

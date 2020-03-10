@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 import Nav from './Nav.vue'
-import Furniture from './Furniture.vue'
 import Selection from './Selection.vue'
-import Canvas from './Canvas.vue'
+import ChairSelection from './ChairSelection.vue'
+// import Furniture from './Furniture.vue'
+// import Canvas from './Canvas.vue'
 // import VueKonva from 'vue-konva';
 // Vue.use(VueKonva);
 
@@ -30,6 +31,12 @@ new Vue({
 	el: '#selection',
 	render: h => h(Selection)
 });
+new Vue({
+	el: '#chairselection',
+	render: h => h(ChairSelection)
+});
+
+
 
 // new Vue({
 //   el: '#imageconvert',

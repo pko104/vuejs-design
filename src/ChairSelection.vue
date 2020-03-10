@@ -1,8 +1,8 @@
 <template>
-	<div class="col-6 select-item-section" id="selection-section" v-show="tab === 0">
-		<h3 class="selection-title">Table</h3>
+	<div class="col-6 select-item-section" id="chair-selection-section" v-show="tab === 1">
+		<h3 class="selection-title">Chair</h3>
 		<div class="row">
-		    <img alt="Mid-Century Expandable Dining Table - Walnut" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0530/mid-century-expandable-dining-table-walnut-o.jpg" class="col-4 selection-item" @click=" copySrc">
+		    <img alt="Mid-Century Upholstered Dining Chair - Metal Legs" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201941/0009/mid-century-upholstered-dining-chair-metal-o.jpg" class="col-4 selection-item" @click=" copySrc">
 		    <img alt="Anton Solid Wood Dining Table" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0332/anton-solid-wood-dining-table-o.jpg" class="col-4 selection-item" @click=" copySrc">
 			<img alt="Mid-Century Round Expandable Dining Table" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201951/0029/mid-century-round-expandable-dining-table-o.jpg" class="col-4 selection-item" @click=" copySrc">
 		</div>
@@ -31,8 +31,6 @@
 </template>
 
 <script>
-
-
 	export default {
 		props:['tab'],
       	methods: {
@@ -43,7 +41,7 @@
 
 			    console.log
 			    var stage = new Konva.Stage({
-			        container: 'canvas-container',
+			        container: 'canvas-container2',
 			        width: width,
 			        height: height
 			      	});
@@ -52,21 +50,21 @@
 			      	stage.add(layer);
 
 		      // main API:
-		      	var imageObj = new Image();
-		      		imageObj.onload = function() {
-		        	var yoda = new Konva.Image({
-		          	x: 50,
-		          	y: 50,
-		          	image: imageObj,
-		          	scaleX: 0.4,
-		          	scaleY: 0.4
+		      	var imageObj2 = new Image();
+		      		imageObj2.onload = function() {
+		        	var vader = new Konva.Image({
+		          	x: 0,
+		          	y: 25,
+		          	image: imageObj2,
+		          	scaleX: 0.3,
+		          	scaleY: 0.3
 		        });
 
 		        // add the shape to the layer
-		        	layer.add(yoda);
+		        	layer.add(vader);
 		        	layer.batchDraw();
 		      	};
-      		imageObj.src = this.src;
+      		imageObj2.src = this.src;
   			}
 		}
 	}
@@ -100,7 +98,6 @@
     display: block;
     border-bottom: 1px solid blue;
 }
-
 
 .konvajs-content{
 	position:fixed !important;
