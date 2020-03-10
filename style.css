@@ -39,3 +39,11 @@ body{
 	background:#e5e5e5;
 }
 
+.konvajs-content{
+	position:fixed !important;
+	display: inline-block;
+	top:15%;
+	left:0%;
+
+}
+

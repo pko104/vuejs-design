@@ -3,28 +3,28 @@
 		<h3 class="selection-title">Chair</h3>
 		<div class="row">
 		    <img alt="Mid-Century Upholstered Dining Chair - Metal Legs" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201941/0009/mid-century-upholstered-dining-chair-metal-o.jpg" class="col-4 selection-item" @click=" copySrc">
-		    <img alt="Anton Solid Wood Dining Table" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0332/anton-solid-wood-dining-table-o.jpg" class="col-4 selection-item" @click=" copySrc">
-			<img alt="Mid-Century Round Expandable Dining Table" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201951/0029/mid-century-round-expandable-dining-table-o.jpg" class="col-4 selection-item" @click=" copySrc">
+		    <img alt="Mid-Century Upholstered Dining Chair - Wooden Legs" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0571/mid-century-upholstered-dining-chair-pecan-o.jpg" class="col-4 selection-item" @click=" copySrc">
+			<img alt="Framework Upholstered Dining Chair" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201941/0010/framework-upholstered-dining-chair-o.jpg" class="col-4 selection-item" @click=" copySrc">
 		</div>
 		<div class="row">
-		    <img alt="Box Frame Drop Leaf Expandable Table" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0599/box-frame-drop-leaf-expandable-table-o.jpg" class="col-4 selection-item" @click=" copySrc">
-		    <img alt="Emmerson® Reclaimed Wood Dining Table - Stone Gray" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0464/emmerson-reclaimed-wood-dining-table-stone-gray-o.jpg" class="col-4 selection-item" @click=" copySrc">
-			<img alt="Jensen Dining Table" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0524/jensen-dining-table-o.jpg" class="col-4 selection-item" @click=" copySrc">
+		    <img alt="Orb Upholstered Dining Chair" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0631/orb-upholstered-dining-chair-o.jpg" class="col-4 selection-item" @click=" copySrc">
+		    <img alt="Slope Upholstered Dining Chair" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0491/slope-upholstered-dining-chair-o.jpg" class="col-4 selection-item" @click=" copySrc">
+			<img alt="Crest Bentwood Dining Chair" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0340/crest-bentwood-chair-with-walnut-veneer-o.jpg" class="col-4 selection-item" @click=" copySrc">
 		</div>
 		<div class="row">
-		    <img alt="Anderson Solid Wood Expandable Dining Table - Caramel" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0555/anderson-solid-wood-expandable-dining-table-caramel-o.jpg" class="col-4 selection-item" @click=" copySrc">
-		    <img alt="Tower Dining Table - Concrete" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0378/tower-dining-table-concrete-o.jpg" class="col-4 selection-item" @click=" copySrc">
-			<img alt="Anderson Solid Wood Expandable Dining Table - Carob" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0494/anderson-solid-wood-expandable-dining-table-carob-o.jpg" class="col-4 selection-item" @click=" copySrc">
+		    <img alt="Lenox Dining Chair" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201941/0026/lenox-velvet-dining-chair-o.jpg" class="col-4 selection-item" @click=" copySrc">
+		    <img alt="TMid-Century Leather Dining Chair - Saddle/Blackened Brass" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0525/mid-century-leather-dining-chair-saddle-blackened-brass-o.jpg" class="col-4 selection-item" @click=" copySrc">
+			<img alt="Framework Leather Dining Chair - Saddle" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0396/framework-leather-dining-chair-saddle-o.jpg" class="col-4 selection-item" @click=" copySrc">
 		</div>
 		<div class="row">
-		    <img alt="Jules Drop Leaf Expandable Dining Table" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0462/jules-drop-leaf-expandable-dining-table-o.jpg" class="col-4 selection-item" @click=" copySrc">
-		    <img alt="Modern Farmhouse Expandable Dining Table - Cerused Carob" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0268/modern-farmhouse-expandable-dining-table-cerused-carob-o.jpg" class="col-4 selection-item" @click=" copySrc">
-			<img alt="Mid-Century Expandable Dining Table - Pebble" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0538/mid-century-expandable-dining-table-pebble-o.jpg" class="col-4 selection-item" @click=" copySrc">
+		    <img alt="Ellis Upholstered Dining Chair" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0474/ellis-upholstered-dining-chair-o.jpg" class="col-4 selection-item" @click=" copySrc">
+		    <img alt="Rustic Dining Chair" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0551/rustic-dining-chair-o.jpg" class="col-4 selection-item" @click=" copySrc">
+			<img alt="Finley High-Back Upholstered Dining Chair" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0298/finley-high-back-upholstered-dining-chair-o.jpg" class="col-4 selection-item" @click=" copySrc">
 		</div>
 		<div class="row">
-		    <img alt="Frame Expandable Dining Table - Walnut" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201941/0005/frame-expandable-dining-table-walnut-antique-brass-o.jpg" class="col-4 selection-item" @click=" copySrc">
-		    <img alt="Frame Expandable Dining Table - Caramel" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201944/0020/img21o.jpg" class="col-4 selection-item" @click=" copySrc">
-			<img alt="Modern Expandable Dining Table" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0418/modern-expandable-dining-table-o.jpg"class="col-4 selection-item" @click=" copySrc">
+		    <img alt="Ellis Upholstered Dining Armchair" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0429/ellis-upholstered-dining-armchair-o.jpg" class="col-4 selection-item" @click=" copySrc">
+		    <img alt="Classic Café Dining Chair" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0368/classic-cafe-dining-chair-o.jpg" class="col-4 selection-item" @click=" copySrc">
+			<img alt="Lila Upholstered Dining Chair" src="https://www.westelm.com/weimgs/rk/images/wcm/products/201940/0606/lila-upholstered-dining-chair-o.jpg"class="col-4 selection-item" @click=" copySrc">
 		</div> 
 	</div>
 
@@ -37,7 +37,7 @@
 			copySrc: function(img){
 			    this.src = img.srcElement.src;
 			    var width = window.innerWidth/2 -15;
-			    var height = window.innerHeight/2 -15;
+			    var height = window.innerHeight;
 
 			    console.log
 			    var stage = new Konva.Stage({
@@ -53,18 +53,27 @@
 		      	var imageObj2 = new Image();
 		      		imageObj2.onload = function() {
 		        	var vader = new Konva.Image({
-		          	x: 0,
-		          	y: 25,
+		          	x: 15,
+		          	y: 225,
 		          	image: imageObj2,
-		          	scaleX: 0.3,
-		          	scaleY: 0.3
-		        });
+		          	scaleX: 0.225,
+		          	scaleY: 0.225
+		        	});
+		        	var notvader = new Konva.Image({
+		          	x: 470,
+		          	y: 225,
+		          	image: imageObj2,
+		          	scaleX: 0.225,
+		          	scaleY: 0.225
+		        	});
+
 
 		        // add the shape to the layer
 		        	layer.add(vader);
+		        	layer.add(notvader);
 		        	layer.batchDraw();
 		      	};
-      		imageObj2.src = this.src;
+      			imageObj2.src = this.src;
   			}
 		}
 	}
@@ -99,11 +108,4 @@
     border-bottom: 1px solid blue;
 }
 
-.konvajs-content{
-	position:fixed !important;
-	display: inline-block;
-	top:30%;
-	left:7%;
-
-}
 </style>

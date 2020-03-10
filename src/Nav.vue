@@ -8,12 +8,15 @@
       </div>  
     </nav>
     <div class="row">
+      {{tab}}
       <div id="all-the-drawings" class="col-6">
+        <div id="canvas-container3" class="col-12 canvas"></div>
         <div id="canvas-container" class="col-6 canvas"></div>
         <div id="canvas-container2" class="col-6 canvas"></div>
       </div>
       <table-input :tab="currentTab"></table-input>
       <chair-input :tab="currentTab"></chair-input>
+      <light-input :tab="currentTab"></light-input>
     </div>
   </div>
 </template>
@@ -22,17 +25,19 @@
 <script>
 import Selection from './Selection.vue'
 import ChairSelection from './ChairSelection.vue'
+import LightSelection from './LightSelection.vue'
 
   export default {
     data() {
           return {
           currentTab: 0,
-          tabs: ['Table', 'Chair','Price','Size']    
+          tabs: ['Table', 'Chair','Light Fixture']    
           }
       },
       components: {
         'table-input' : Selection,
         'chair-input' : ChairSelection,
+        'light-input' : LightSelection,
 
       }
 

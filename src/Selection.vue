@@ -39,7 +39,7 @@
 			copySrc: function(img){
 			    this.src = img.srcElement.src;
 			    var width = window.innerWidth/2 -15;
-			    var height = window.innerHeight/2 -15;
+			    var height = window.innerHeight;
 
 			    console.log
 			    var stage = new Konva.Stage({
@@ -55,11 +55,11 @@
 		      	var imageObj = new Image();
 		      		imageObj.onload = function() {
 		        	var yoda = new Konva.Image({
-		          	x: 50,
-		          	y: 50,
+		          	x: 180,
+		          	y: 175,
 		          	image: imageObj,
 		          	scaleX: 0.4,
-		          	scaleY: 0.4
+		          	scaleY: 0.35
 		        });
 
 		        // add the shape to the layer
@@ -101,12 +101,4 @@
     border-bottom: 1px solid blue;
 }
 
-
-.konvajs-content{
-	position:fixed !important;
-	display: inline-block;
-	top:30%;
-	left:7%;
-
-}
 </style>

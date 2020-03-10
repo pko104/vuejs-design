@@ -3,6 +3,7 @@ import App from './App.vue'
 import Nav from './Nav.vue'
 import Selection from './Selection.vue'
 import ChairSelection from './ChairSelection.vue'
+import LightSelection from './LightSelection.vue'
 // import Furniture from './Furniture.vue'
 // import Canvas from './Canvas.vue'
 // import VueKonva from 'vue-konva';
@@ -19,21 +20,17 @@ new Vue({
 })
 
 new Vue({
-  	el: '#furniture',
-  	render: h => h(Furniture)
-})
-
-new Vue({
-  	el: '#canvas',
-  	render: h => h(Canvas)
-})
-new Vue({
 	el: '#selection',
 	render: h => h(Selection)
 });
 new Vue({
 	el: '#chairselection',
 	render: h => h(ChairSelection)
+});
+
+new Vue({
+	el: '#lightselection',
+	render: h => h(LightSelection)
 });
 
 
