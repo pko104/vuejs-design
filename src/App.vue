@@ -153,7 +153,6 @@ body{
   position:fixed !important;
   top:15%;
   left:25%;
-
 }
 
 .row{
