@@ -1,5 +1,14 @@
 var path = require('path')
 var webpack = require('webpack')
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
+module.exports = {
+  plugins: [
+    new CopyWebpackPlugin([
+      { from: './index/html', to: 'relative/path/to/dest/' }
+    ])
+  ]
+}
 
 module.exports = {
   entry: './src/main.js',

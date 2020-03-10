@@ -108,4 +108,52 @@ li {
 a {
   color: #42b983;
 }
+body{
+  overflow-anchor: none;
+    font-family: "GT-Eesti 3r",Arial,sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    color: #363636;
+}
+#heading{
+  font-size:30px;
+  margin: auto;
+  position: fixed;
+  text-align: center;
+  background: #e6dada;
+  height: 70px;
+  padding-top: 5px;
+  z-index: 1;
+  width: 100%;
+}
+.bm-burger-button{
+  top:20px;
+}
+.main-area{
+  position: relative;
+  top: 30px;
+}
+.canvas{
+  text-align: center;
+
+}
+.select-item-section{
+  padding:25px;
+  background:white;
+  padding-top: 50px;
+  padding-left:40px !important;
+  padding-right:40px !important;
+}
+
+#all-the-drawings{
+  background:#e5e5e5;
+}
+
+.konvajs-content{
+  position:fixed !important;
+  display: inline-block;
+  top:15%;
+  left:0%;
+
+}
 </style>
