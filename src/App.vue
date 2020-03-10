@@ -152,7 +152,6 @@ body{
 .konvajs-content{
   position:fixed !important;
   top:15%;
-  left:7%;
 }
 
 .row{
