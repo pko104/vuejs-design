@@ -58,8 +58,8 @@
 		          	x: 160,
 		          	y: 175,
 		          	image: imageObj,
-		          	scaleX: 0.4,
-		          	scaleY: 0.35
+		          	scaleX: 0.35,
+		          	scaleY: 0.3
 		        });
 
 		        // add the shape to the layer
