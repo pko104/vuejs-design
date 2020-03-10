@@ -151,9 +151,16 @@ body{
 
 .konvajs-content{
   position:fixed !important;
-  display: inline-block;
   top:15%;
-  left:0%;
+  left:25%;
 
 }
+
+.row{
+  max-width:1280px;
+  justify-content: center;
+  text-align:center;
+  margin: auto;
+}
+
 </style>
