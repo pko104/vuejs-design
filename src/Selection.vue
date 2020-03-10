@@ -55,7 +55,7 @@
 		      	var imageObj = new Image();
 		      		imageObj.onload = function() {
 		        	var yoda = new Konva.Image({
-		          	x: 155,
+		          	x: 160,
 		          	y: 175,
 		          	image: imageObj,
 		          	scaleX: 0.4,

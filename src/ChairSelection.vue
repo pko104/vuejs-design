@@ -60,7 +60,7 @@
 		          	scaleY: 0.225
 		        	});
 		        	var notvader = new Konva.Image({
-		          	x: 410,
+		          	x: 430,
 		          	y: 225,
 		          	image: imageObj2,
 		          	scaleX: 0.225,
