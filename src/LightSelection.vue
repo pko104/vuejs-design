@@ -53,7 +53,7 @@
 		      	var imageObj3 = new Image();
 		      		imageObj3.onload = function() {
 		        	var vader = new Konva.Image({
-		          	x: 225,
+		          	x: 215,
 		          	y: 10,
 		          	image: imageObj3,
 		          	scaleX: 0.2,
