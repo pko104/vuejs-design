@@ -76,7 +76,7 @@ import LightSelection from './LightSelection.vue'
     color: black;
     margin: auto;
     padding-top: 5px;
-    left:0%
+    left:0%;
 }
 .builder .step-nav a {
     font-size: 13px;
