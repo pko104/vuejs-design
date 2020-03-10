@@ -13,11 +13,7 @@
   "dependencies": {
     "konva": "^4.1.6",
     "vue": "^2.6.11",
-    "vue-burger-menu": "^2.0.4",
-    "express":"*",
-    "body-parser":"*",
-    "bcrypt": "^0.8.5"
-
+    "vue-burger-menu": "^2.0.4"
   },
   "browserslist": [
     "> 1%",
